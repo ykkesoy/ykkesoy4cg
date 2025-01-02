@@ -1,0 +1,86 @@
+/* */
+.right_related{
+    margin-bottom: 10px;
+}
+.p_right{
+    padding-left: 10px;
+}
+.topic_h2 {
+    font-size:14px !important;
+    padding: 0px 5px !important;
+    line-height: 1.2em !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /*display:inline-block;*/
+}
+/*topic css*/
+.topic_img{}
+.topic_left_img{ width:30%;float: left; padding-right: 10px; }
+.topic_right_content{width:65%;float: left;}
+.clear_both{ height:200px;clear:both;}
+/*2023.02.13 fix */
+/*当屏幕尺寸大于960px时，应用下面的CSS样式*/
+@media screen and (min-width: 960px) {
+    .max_content {width: 960px;max-width:960px;}
+    .left_content{float: left; width: 568px;}
+    .right_content{float: right;width: 350px;}
+    /* 修复 */
+    .page{
+        clear: both;
+    }
+    #content {
+        max-width: 940px;
+        margin: auto auto;
+    }
+    .search{
+        max-width: 940px;
+    }
+    #left_pm_1{display: none;}
+}
+/*当屏幕尺寸小于960px时，应用下面的CSS样式*/
+@media(max-width:960px){
+    /*.right_content{display: none;}*/
+    .right_wx{display: none;}
+    /*.right_content{text-align: center;}*/
+}
+
+
+/* pm */
+.jd_tit{background-color: #e62828 !important; color: white;}
+.RichCard{padding: 5px;margin:  5px 0 20px;background-color: #f6f6f6; height: 130px;}
+.link_a {text-decoration-line: none; }
+.c_thumb{float: left;width: 30%;max-width: 80px;}
+.c_info{margin-left:30%;}
+.buyit{margin-left:50%;color: #fff;display: inline-block;}
+.buyit button {
+    background: #e62828;color: #fff;border: none;
+    padding: 0 10px;font-size: 13px;border-radius: 2px;display: inline-block;opacity: .8;
+}
+.adtips{font-size:0.5em;color:#B7B9C1;margin-left:5px;}
+.c_top{height: 3em;overflow: hidden;}
+.c_ext{color: red; margin-bottom: 10px;}
+
+/* download*/
+.icon_pan{
+    background-size: 18px 18px;width: 24px;height: 24px;
+    line-height: 1.2em;padding-right: 5px;position: relative;top: 8px;
+}
+.icon_p_baiduyun{ background-image:url('../images/icon_baidu.png'); background-repeat:no-repeat;}
+.icon_p_aliyun{ background-image:url('../images/icon_aliyun.png'); background-repeat:no-repeat;}
+.icon_p_weiyun{ background-image:url('../images/icon_weiyun.png'); background-repeat:no-repeat;}
+.icon_p_sina{ background-image:url('../images/icon_vdisk.png'); background-repeat:no-repeat;}
+.icon_p_xunlei{ background-image:url('../images/icon_xunlei.png'); background-repeat:no-repeat;}
+.icon_p_huawei{ background-image:url('../images/icon_huawei.png'); background-repeat:no-repeat;}
+.icon_p_local{ background-image:url('../images/icon_local.png'); background-repeat:no-repeat;}
+.icon_p_tianyi{ background-image:url('../images/icon_tianyi.png'); background-repeat:no-repeat;}
+.icon_p_360yun{ background-image:url('../images/icon_360.png'); background-repeat:no-repeat;}
+.icon_p_kuake{ background-image:url('../images/icon_kuake.png'); background-repeat:no-repeat;}
+
+.icon_p_pdf{ background-image:url('../images/icon_pdf.png'); background-repeat:no-repeat;}
+.icon_p_epub{ background-image:url('../images/icon_epub.png'); background-repeat:no-repeat;}
+.icon_p_txt{ background-image:url('../images/icon_txt.png'); background-repeat:no-repeat;}
+.icon_p_mobi{ background-image:url('../images/icon_mobi.png'); background-repeat:no-repeat;}
+.icon_p_azw3{ background-image:url('../images/icon_azw3.png'); background-repeat:no-repeat;}
+.icon_p_kindle{ background-image:url('../images/icon_kindle.png'); background-repeat:no-repeat;}
+.icon_p_word{ background-image:url('../images/icon_word.png'); background-repeat:no-repeat;}
+
